@@ -1,0 +1,84 @@
+/*
+Author: Nya Reebe
+Date: 3/26/24
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and header content */
+body {
+    background-color: #d9d9d9;
+}
+
+header, footer {
+    padding: 2%;
+    text-align: center;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    overflow: auto;
+}
+
+main p {
+    font-size: 1.25em;
+    padding: 2%;
+}
+
+main a {
+    color: #0000b3;
+    text-decoration: none;
+}
+
+#orange, #purple, #green {
+    display: block;
+    margin-bottom: 2%;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+#questions {
+    clear: left;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+    display: inline-block;
+    padding-top: 5%;
+}
+
+/* Orange */
+
+div .orange-hex {
+	background-color: #ff9900
+}
+
+div .orange-rgb {background-color: rgb(255, 153, 0)}
+
+div .orange-hsl {background-color: hsl(36, 100%, 50%)}
+
+/* Purple */
+
+div .purple-hex {background-color: #9933ff}
+
+div .purple-rgb {background-color: rgb(153, 51, 255)}
+
+div .purple-hsl {background-color: hsl(270, 100%, 60%)}
+
+/* Green */
+
+div .green-hex {background-color: #33cc33}
+
+div .green-rgb {background-color: rgb(51, 204, 51)}
+
+div .green-hsl {background-color: hsl(120, 60%, 50%)}
